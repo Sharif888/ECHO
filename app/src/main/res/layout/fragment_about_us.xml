@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="24dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:src="@drawable/sharuuu"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/profilePhoto"
+                android:layout_marginRight="8dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mohd Sharif Teli"
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:id="@+id/nameText"
+                android:layout_toRightOf="@+id/profilePhoto"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="telisharif8@gmail.com"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:autoLink="email"
+                android:textColorLink="#555555"
+                android:layout_gravity="center"
+                android:id="@+id/emailText"
+                android:layout_toRightOf="@+id/profilePhoto"
+                android:layout_below="@+id/nameText"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/sharif888"
+                android:autoLink="web"
+                android:textSize="14sp"
+                android:textColorLink="#555555"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:id="@+id/phoneNumberText"
+                android:layout_toRightOf="@+id/profilePhoto"
+                android:layout_below="@+id/emailText"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qualification"
+                android:textColor="#ffffff"
+        android:background="#00032a"></Button>
+        <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bachelor of Technology, Computer Science"
+                        android:textSize="16sp"
+                        android:textColor="#222222"
+                        android:layout_marginTop="16dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lovely Professional University"
+                        android:textSize="12sp"
+                        android:textColor="#555555"
+                        android:layout_marginBottom="16dp"/>
+
+                <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:background="#CCCCCC"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Android App Devlopment"
+                        android:textSize="16sp"
+                        android:textColor="#222222"
+                        android:layout_marginTop="16dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Intershala, India"
+                        android:textSize="12sp"
+                        android:textColor="#555555"
+                        android:layout_marginBottom="16dp"/>
+
+                <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:background="#CCCCCC"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Intro to Data Science using Python"
+                        android:textSize="16sp"
+                        android:textColor="#222222"
+                        android:layout_marginTop="16dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Datacamp"
+                        android:textSize="12sp"
+                        android:textColor="#555555"
+                        android:layout_marginBottom="16dp"/>
+
+                <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:background="#CCCCCC"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
